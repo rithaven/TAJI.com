@@ -8,12 +8,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
     <script type="text/javascript" src="app.js"></script>
+    
+  
   </head>
   <body>
     <!--Navbar Section-->
-
-    <div class="topnav" id="myTopnav">
+    <div class="se-pre-con"><img src="images/LOGO.png" id="animate-area"></div>
+    <div class="topnav" id="myTopnav"><B>
       <a href="#home" id="navbar__logo" class="active"
         ><img src="images/LOGO.png" width="60" height="60"
       /></a>
@@ -26,7 +31,7 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
-
+  </B>
     <!---Hero Section-->
     <section class="bg-red-300" id="sec1">
       <div class="row">
@@ -49,68 +54,59 @@
           </div>
       </div>
     </section>
+    <section class="sec4">
+      <div class="back-to-article">
+          <p><a href="smallenvelop.com/blog/"></a></p>
+      </div>
+      <img src="http://smallenvelop.com/wp-content/uploads/2014/08/simple-pre-loader.jpg
+" style="visibility: hidden; width:100%; height: auto;">
+  </section>
+  <style>
+      .sec4 {
+          background: url(img/back\ gif.gif);
+          background-size: cover;
+          background-repeat: no-repeat;
+
+      }
+  </style>
+
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+          
+
+          <p class="footer-company-name">© 2019 Eduonix Learning Solutions Pvt. Ltd.</p>
+      </div>
+
+   
+      <div class="footer-right">
+        
+          <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+         
+      </div>
+      <div class="footer-left2" style="float: right;color: white;color:  #8f9296;
+      font-size: 14px;
+      font-weight: normal; margin-top: 4%;">
+          
+
+        <p >© 2019 Eduonix Learning Solutions Pvt. Ltd.</p>
+      </div>
+  </footer>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+  <script>
+   
+    $(window).load(function () {
+     
+      $(".se-pre-con").fadeOut("slow");;
+    });
+  </script> 
   </body>
 </html>
 
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-   
-  </head>
-
-  <body>
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a href="/" id="navbar__logo" class="active">NEXT</a>
-        <div class="navbar__toggle" id="mobile-menu" >
-        
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu" id="myTopnav">
-          <li class="navbar__item">
-            <a href="/" class="navbar__links">Home </a>
-          </li>
-          <li class="navbar__item">
-            <a href="tech.html" class="navbar__links">Tech </a>
-          </li>
-          <li class="navbar__item">
-            <a href="/" class="navbar__links">Products </a>
-          </li>
-          <li class="navbar__btn">
-            <a href="/" class="button">Sign Up </a>
-          </li>
-          <li class="navbar__item">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "navbar__menu") {
-          x.className += " responsive";
-        } else {
-          x.className = "navbar__menu";
-        }
-      }
-      </script>
-  </body>
-</html> -->
